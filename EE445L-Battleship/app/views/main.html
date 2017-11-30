@@ -1,0 +1,11 @@
+<div layout="container">
+  <div layout="row" >
+    <div layout-sm="column" layout-align="center center" ng-hide="activated">
+      <h2>Waiting for both players to join...</h2><br><br>
+      <center><md-progress-circular md-mode="indeterminate" class="md-warn md-hue-3" md-diameter="70"></md-progress-circular></center>
+    </div>
+    <div layout-sm="column" layout-align="center center" ng-show="activated">
+      <h2>Let's start the game!</h2>
+    </div>
+  </div>
+</div>
